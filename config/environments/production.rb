@@ -1,6 +1,10 @@
 Ovmtb2::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
+  ENV['S3_KEY']='AKIAISWTVPRY2HQL7T2A'
+  ENV['S3_SECRET']='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'
+  ENV['S3_BUCKET']='ovmtb_refinery'
+
   # Code is not reloaded between requests
   config.cache_classes = true
 
