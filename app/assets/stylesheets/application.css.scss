@@ -14,19 +14,26 @@
  *= require_tree .
  */
 
-body {
-  background: #DDD;
-  font-family: Verdana;
-  font-size: 13px;
-  line-height: 18px;
+@import "bootstrap";
+
+#page_container {
+  padding: 10px;
 }
 
-#body, #side_body {
+#body {
   float: left;
-  width: 45%;
+  width: 60%;
   background: white;
   color: #333;
-  padding: 20px;
+  padding: 10px;
+}
+
+#side_body {
+  float: right;
+  width: 38%;
+  background: white;
+  color: #333;
+  padding: 10px;
 }
 
 #menu ul {
@@ -41,7 +48,7 @@ body {
       text-decoration: none;
     }
     &.selected a, a:hover {
-      background: #CCC;
+      background: #FFFF00;
     }
   }
 }

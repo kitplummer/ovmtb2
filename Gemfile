@@ -44,10 +44,12 @@ gem 'refinerycms', '~> 2.1.0'
 
 # Optionally, specify additional Refinery CMS Extensions here:
 gem 'refinerycms-acts-as-indexed', '~> 1.0.0'
-#  gem 'refinerycms-blog', '~> 2.1.0'
+gem 'refinerycms-bootstrap'
+
+gem 'refinerycms-blog', '~> 2.1.0'
 #  gem 'refinerycms-inquiries', '~> 2.1.0'
 #  gem 'refinerycms-search', '~> 2.1.0'
-#  gem 'refinerycms-page-images', '~> 2.1.0'
+gem 'refinerycms-page-images', '~> 2.1.0'
 
 # The Heroku gem allows you to interface with Heroku's API
 gem 'heroku'
