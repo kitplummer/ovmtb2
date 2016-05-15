@@ -46,6 +46,8 @@ gem 'refinerycms', '~> 2.1.0'
 gem 'refinerycms-acts-as-indexed', '~> 1.0.0'
 gem 'refinerycms-bootstrap'
 
+gem 'acts-as-taggable-on', '< 3.1'
+
 gem 'refinerycms-blog', '~> 2.1.0'
 #  gem 'refinerycms-inquiries', '~> 2.1.0'
 #  gem 'refinerycms-search', '~> 2.1.0'
