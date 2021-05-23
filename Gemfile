@@ -60,3 +60,4 @@ gem 'fog'
 
 # Postgres support (added for Heroku)
 gem 'postgres-pr'
+gem 'pg'
