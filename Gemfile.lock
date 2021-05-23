@@ -410,7 +410,7 @@ DEPENDENCIES
   fog
   jquery-rails
   json (= 1.8.6)
-  pg
+  pg (= 1.2.3)
   rails (= 3.2.21)
   refinerycms (~> 2.1.0)
   refinerycms-acts-as-indexed (~> 1.0.0)
