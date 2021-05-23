@@ -257,7 +257,7 @@ GEM
       racc (~> 1.4)
     optimist (3.0.1)
     orm_adapter (0.5.0)
-    pg (1.2.3)
+    pg (0.21.0)
     polyglot (0.3.5)
     racc (1.5.2)
     rack (1.4.7)
@@ -410,7 +410,7 @@ DEPENDENCIES
   fog
   jquery-rails
   json (= 1.8.6)
-  pg
+  pg (~> 0.11)
   rails (= 3.2.21)
   refinerycms (~> 2.1.0)
   refinerycms-acts-as-indexed (~> 1.0.0)
