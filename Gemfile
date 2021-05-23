@@ -60,4 +60,4 @@ gem 'refinerycms-page-images', '~> 2.1.0'
 gem 'fog'
 
 # Postgres support (added for Heroku)
-gem 'pg', '1.2.3'
+gem 'postgres-pr'
