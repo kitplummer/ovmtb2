@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby "2.6.7"
 
 gem 'rails', '3.2.21'
-
+gem 'activerecord-postgresql-adapter'
 gem 'json', '1.8.6'
 
 # Bundle edge Rails instead:
